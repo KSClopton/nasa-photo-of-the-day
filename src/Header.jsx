@@ -14,10 +14,12 @@ const Header = ({logo}) => {
     )
 }
 const StyledHeader = styled.div`
-    border: solid lightgrey 2px;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+
+    div{
+        width: 50%;
+    }
 `
 
 export {Header};

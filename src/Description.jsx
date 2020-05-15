@@ -12,7 +12,7 @@ const Description = ({description}) => {
 }
 const StyleDescription = styled.p`
     max-width: 40%;
-    padding: 4%;
+    padding: 5%;
     font-size: 10px;
 `
 

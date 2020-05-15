@@ -16,6 +16,8 @@ const PicOfDay = ({data}) => {
 const StyledPotd = styled.div`
     img {
       max-width: 100%;
+      border-radius: 2px;
+      
     }
 `
 export default PicOfDay;

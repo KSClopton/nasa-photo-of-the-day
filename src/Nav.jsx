@@ -20,17 +20,14 @@ const StyledNav = styled.div`
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
-    
+    justify-content: space-evenly;
 
     a {
         text-decoration: none;
         color: black;
-        padding: 0 4%;
-        border-left: solid lightgrey 1px;
+        padding: 0 2 0 2%;
+        text-align: center;
 
-        
 
         &:hover{
             background-color: lightgrey;

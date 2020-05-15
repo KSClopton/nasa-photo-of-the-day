@@ -58,11 +58,12 @@ const StyledApp = styled.div`
 export const MainHeading = styled.div`
   display: flex;
   flex-direction: row;
-  
   padding: 0 3%;
+  width: 50%;
 
     h2{
       padding: 0 1%;
+      font-size: 20px;
     }
     .makeYellow{
       color: darkkhaki;
